@@ -1,8 +1,8 @@
 body {
-    background: rgb(179, 177, 177);
+    background: rgb(100, 98, 98);
     font-family: arial;
-    font-size: 12px
+    font-size: 24px
 }
 head, h1, h2, h3, p {
-   color: green;
+   color: rgb(226, 126, 176);
 }
