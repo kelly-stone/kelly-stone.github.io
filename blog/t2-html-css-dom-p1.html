@@ -6,16 +6,17 @@
     <body>
         <div class="question 1">
             <h3>1) Can you think of an analogy to describe HTML, CSS and the DOM? How would you describe it to your non-technical friend?</h3>
-            <p>
-            -HTML:Writing a normal document using a special format.
-            <br>
-            -CSS:Sytling HTML.
-            <br>
-            -DOM:The stuff that looks like HTML from the DevTools.
-            <br>
-            My analogy of HTML, CSS and the DOM is like making a cup of coffee. HTML is to ground and load coffee into a cup, spin milk,and 
-            the milk into coffee. CSS is making different style of pattern in the coffee. And i guess the barista is the DOM, who could give a 
-            visual repreentation based on the HTML and CSS.</p>
+            <ul>
+                <li>HTML:Writing a normal document using a special format.</li>
+                
+                <li>CSS:Sytling HTML.</li>
+            
+                <li>DOM:The stuff that looks like HTML from the DevTools.</li>
+                
+                My analogy of HTML, CSS and the DOM is like making a cup of coffee. HTML is to ground and load coffee into a cup, spin milk,and 
+                the milk into coffee. CSS is making different style of pattern in the coffee. And i guess the barista is the DOM, who could give a 
+                visual repreentation based on the HTML and CSS.
+            </ul>
 
         </div>
         <div class="question 2">
@@ -27,16 +28,18 @@
         <div class="question 3">
             <h3>3) What is the box model?</h3>
             <p>"box model" is used when talking about design and layout. The CSS box model is essentially a box that wraps around every HTML element. It consists of: margins, borders, padding, and the actual content. 
-            Explanation of the different parts:</p>
+            Explanation of the different parts:
+            </p>
+            <ul>
 
-                Content - The content of the box, where text and images appear
-                <br>
-                Padding - Clears an area around the content. The padding is transparent.
-                <br>
-                Border - A border that goes around the padding and content.
-                <br>
-                Margin - Clears an area outside the border. The margin is transparent
-                <br>
+                <li>Content - The content of the box, where text and images appear</li>
+                
+                <li>Padding - Clears an area around the content. The padding is transparent.</li>
+                
+                <li>Border - A border that goes around the padding and content.</li>
+             
+                <li>Margin - Clears an area outside the border. The margin is transparent</li>
+            </ul> 
             <p>The box model allows us to add a border around elements, and to define space between elements. 
             </p>
         </div>
@@ -44,4 +47,28 @@
             <a href="../index.html">Kelly's Homepage</a>
         </footer>
     </body>
+
+    <form>
+        <div class="row">
+          <div class="six columns">
+            <label for="exampleEmailInput">Your email</label>
+            <input class="u-full-width" type="email" placeholder="test@mailbox.com" id="exampleEmailInput">
+          </div>
+          <div class="six columns">
+            <label for="exampleRecipientInput">Reason for contacting</label>
+            <select class="u-full-width" id="exampleRecipientInput">
+              <option value="Option 1">Questions</option>
+              <option value="Option 2">Admiration</option>
+              <option value="Option 3">Can I get your number?</option>
+            </select>
+          </div>
+        </div>
+        <label for="exampleMessage">Message</label>
+        <textarea class="u-full-width" placeholder="Hi Dave …" id="exampleMessage"></textarea>
+        <label class="example-send-yourself-copy">
+          <input type="checkbox">
+          <span class="label-body">Send a copy to yourself</span>
+        </label>
+        <input class="button-primary" type="submit" value="Submit">
+    </form>
 </html>
