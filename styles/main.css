@@ -3,6 +3,16 @@ body {
     font-family: arial;
     font-size: 24px
 }
-head, h1, h2, h3, p {
+head, h2, h3, p {
    color: rgb(226, 126, 176);
+}
+<pre><code>.some-class {
+    background-color: red;
+  }</code></pre>
+
+h1{
+    border: 5px solidcolor black;
+    border: radius 10;
+    background: pink;
+    padding: 10%
 }
