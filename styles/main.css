@@ -1,18 +1,36 @@
 body {
-    background: rgb(100, 98, 98);
+    background: rgb(119, 118, 118);
     font-family: arial;
     font-size: 24px
 }
-head, h2, h3, p {
+head, h2, h3 {
    color: rgb(226, 126, 176);
 }
-<pre><code>.some-class {
-    background-color: red;
-  }</code></pre>
+
 
 h1{
     border: 5px solidcolor black;
-    border: radius 10;
-    background: pink;
-    padding: 10%
+    border-radius: 10px;
+    background: rgb(221, 166, 174);
+    padding: 1.5%
+}
+/* Mobile first queries */
+/* Larger than desktop */
+@media (min-width: 1000px) {}
+
+p,ul {
+    font-size: 1.5em;
+    line-height: 1.6;
+    font-weight: 400;
+    font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #222;
+}
+
+a {
+    font-size: 30px;
+    font-weight: 900;
+    color: #1EAEDB; }
+
+form{
+    padding: 5%
 }
