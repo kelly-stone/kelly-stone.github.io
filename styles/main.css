@@ -1,17 +1,17 @@
 body {
-    background: rgb(119, 118, 118);
+    background: rgb(85, 83, 83);
     font-family: arial;
     font-size: 24px
 }
 head, h2, h3 {
-   color: rgb(226, 126, 176);
+   color: rgb(245, 242, 96)(208, 236, 141);
 }
 
 
 h1{
-    border: 5px solidcolor black;
+    border: 5px solidcolor rgb(223, 221, 201);
     border-radius: 10px;
-    background: rgb(221, 166, 174);
+    background: rgba(218, 141, 141, 0.904);
     padding: 1.5%
 }
 /* Mobile first queries */
@@ -23,14 +23,21 @@ p,ul {
     line-height: 1.6;
     font-weight: 400;
     font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: #222;
+    color: rgb(214, 213, 207);
 }
 
 a {
     font-size: 30px;
     font-weight: 900;
-    color: #1EAEDB; }
+    color: rgb(242, 246, 248); }
 
 form{
     padding: 5%
+}
+
+id { 
+    font-size: 80px;
+    text-align: center;
+
+
 }
